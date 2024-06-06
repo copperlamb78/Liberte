@@ -13,7 +13,7 @@ export function Home() {
             <SocialLinks href="https://discord.gg/GBtjusud6Y" target="blank">
                 <DiscordLogo size={64}/>
             </SocialLinks>
-            <SocialLinks href="#https://www.instagram.com/liberte_ofc1?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="blank">
+            <SocialLinks href="https://www.instagram.com/liberte_ofc1?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="blank">
                 <InstagramLogo size={64}/>
             </SocialLinks>
             <SocialLinks href="https://www.tiktok.com/@liberte_ofc1" target="blank">
