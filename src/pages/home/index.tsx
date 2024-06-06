@@ -1,7 +1,7 @@
 import { Header } from "../../components/Header";
 import { CartazLiberte, HomeContainer, SocialLinks } from "./styles";
 import cartazImg from "../../assets/cartaz_tiocat.jpg"
-import { DiscordLogo, InstagramLogo, TiktokLogo, YoutubeLogo } from "phosphor-react";
+import { DiscordLogo, InstagramLogo, TiktokLogo} from "phosphor-react";
 
 export function Home() {
     return(
