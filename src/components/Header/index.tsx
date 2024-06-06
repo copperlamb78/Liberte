@@ -20,6 +20,8 @@ export function Header() {
                     <IconComponent size={32}/>
                 </DarkLightButton>
             </HeaderContent>
+            
         </HeaderContainer>
+        
     )
 }
