@@ -1,6 +1,6 @@
 import { DarkLightButton, HeaderContainer, HeaderContent } from "./styles";
 import LogoImg from '../../assets/logo.jpg'
-import { Moon, Sun } from "phosphor-react";
+import { MoonStars, Sun } from "phosphor-react";
 import { useContext } from "react";
 import { ThemeModeContext } from "../../context/theme_context";
 import { lightModeColors } from "../../styles/themes/default";
@@ -9,7 +9,7 @@ export function Header() {
     const { toggleTheme } = useContext(ThemeModeContext)
     const { themeMode } = useContext(ThemeModeContext)
 
-    const IconComponent = themeMode === lightModeColors ? Sun : Moon;
+    const IconComponent = themeMode === lightModeColors ? Sun : MoonStars;
 
     return(
         <HeaderContainer>
